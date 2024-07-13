@@ -54,7 +54,6 @@
 // console.log("titanic".match(/t[a-z]*?i/));
 // console.log("<h1>Winter is coming</h1>".match(/<.*?>/))
 
-
 //--------------------------------------
 // ^ for the begining $ for the end.
 // console.log("P1P2P3P4P5P6CCCP7P8P9".match(/C+/))
@@ -69,7 +68,27 @@
 // console.log("14893279".match(/\d/g))
 // console.log("14893279 sohad".match(/\D/g))
 
-
+//--------------------------------------
+// let username = "JackOfAllTrades";
+// let useCheck = /^[A-Za-z]{2,}\d*$/;
+//   console.log(useCheck.test(username));
+//--------------------------------------
+// s => whitespace
+// let sample = "Whitespace is important inseparating words";
+// console.log(sample.match(/\s/g));
+// console.log(sample.match(/\S/g));
+//--------------------------------------
+// ? for optional
+// console.log("qu".match(/q(?=u)/));
+// console.log("qt".match(/q(?!u)/));
 
 //--------------------------------------
+// console.log(/(\w+)\s\1/.test("regex regex"));
+// console.log("regex regex".match(/(\w+)\s\1/));
 
+//--------------------------------------
+// console.log("The sky is silver".replace(/silver/, "blue"));
+// console.log("Code Camp".replace(/(\w+)\s(\w+)/, "$2 $1"));
+// console.log("  Hello, World!  ".replace(/^\s+|\s+$/g , ""))
+//--------------------------------------
+//The End 😊
